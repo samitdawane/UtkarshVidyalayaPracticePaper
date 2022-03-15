@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.samit.utkarsh.SplashScreenFragment"
+        android:label="SplashScreen"
+        tools:layout="@layout/fragment_splash"
+        >
+
+        <action
+            android:id="@+id/action_splashFragment_to_selectStandardFragment"
+            app:destination="@id/selectStandardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/selectStandardFragment"
+        android:name="com.samit.utkarsh.ui.select_standard.SelectStandardFragment"
+        android:label="SplashScreen"
+        tools:layout="@layout/fragment_select_standard"
+        >
+
+        <action
+            android:id="@+id/action_selectStandardFragment_to_selectPaperFragment"
+            app:destination="@id/selectPaperFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/selectPaperFragment"
+        android:name="com.samit.utkarsh.ui.select_paper.SelectPaperFragment"
+        android:label="SplashScreen"
+        tools:layout="@layout/fragment_select_paper"
+        >
+
+        <action
+            android:id="@+id/action_selectPaperFragment_to_examFragment"
+            app:destination="@id/examFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/examFragment"
+        android:name="com.samit.utkarsh.ui.exam.ExamFragment"
+        android:label="SplashScreen"
+        tools:layout="@layout/fragment_exam"
+        >
+
+    </fragment>
+
+</navigation>

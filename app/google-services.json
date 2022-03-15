@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "600033196743",
+    "project_id": "utkarshvidyalayapracticepaper",
+    "storage_bucket": "utkarshvidyalayapracticepaper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600033196743:android:8b9c82696aaae93cea9ce2",
+        "android_client_info": {
+          "package_name": "com.samit.utkarsh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600033196743-9v6c7350tniqf098dkops84kdmefskbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpdkVllPBh2OB9WKGtGp2eEza4FLEwda8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600033196743-9v6c7350tniqf098dkops84kdmefskbd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
